@@ -18,11 +18,3 @@ local Main = Window:MakeTab({"Script", "paper"})
 Main:AddButton({"Rael hub troll", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Rael-Hub/refs/heads/main/Brookhaven/script%20troll.txt"))()
 end})
-
-Main:AddButton({"Brutus hub", function()
-    
-end})
-
-Main:AddButton({"Chaos hub", function()
-    
-end})
