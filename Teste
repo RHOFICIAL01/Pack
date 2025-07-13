@@ -1,1 +1,28 @@
-Isso e um teste.
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Library/refs/heads/main/V5/Source.lua"))()
+
+local Window = redzlib:MakeWindow({
+    Title = "Pack",
+    SubTitle = "by 188._.",
+    SaveFolder = ""
+})
+
+Window:AddMinimizeButton({
+  Button = { Image = redzlib:GetIcon("rbxassetid://107102430253290"),
+    Size = UDim2.fromOffset(60, 60),
+    BackgroundTransparency = 0 },
+  Corner = { CornerRadius = UDim.new(0, 6) }
+})
+
+local Main = Window:MakeTab({"Script", "paper"})
+
+Main:AddButton({"Rael hub troll", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Rael-Hub/refs/heads/main/Brookhaven/script%20troll.txt"))()
+end})
+
+Main:AddButton({"Brutus hub", function()
+    
+end})
+
+Main:AddButton({"Chaos hub", function()
+    
+end})
